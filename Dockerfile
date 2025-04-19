@@ -1,5 +1,5 @@
 # Используем базовый образ Python
-FROM python:3.14
+FROM dockerhub.timeweb.cloud/python:3.14-rc
 
 # Устанавливаем рабочую директорию в контейнере
 WORKDIR /webserver
